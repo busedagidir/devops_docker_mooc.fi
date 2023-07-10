@@ -1,0 +1,37 @@
+Script started on 2023-07-10 16:21:50+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="209" LINES="51"]
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ python3ip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo apt-get install python3-pip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Ppython --version[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7msudo docker container run -d nginx[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker container run -d nginx
+[?2004l[sudo] password for buse: 
+a8be312d20db9d09fe207262ac55b66f9563723274dce330ced4e79c3273a7b9
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker container run -d nginx
+[?2004l6e788c610e160b86cb6211c37eee9c74fd4850de3637acf54c3247bd97193df6
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker container run -d nginx
+[?2004l347cb31182c87be623988a23491edb7cecf8c10c88eb1c72c01792de70c34a25
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker psd -[K[K[K -a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS         PORTS     NAMES
+347cb31182c8   nginx     "/docker-entrypoint.…"   6 seconds ago    Up 5 seconds   80/tcp    nervous_mcnulty
+6e788c610e16   nginx     "/docker-entrypoint.…"   8 seconds ago    Up 7 seconds   80/tcp    competent_goldstine
+a8be312d20db   nginx     "/docker-entrypoint.…"   10 seconds ago   Up 9 seconds   80/tcp    gracious_hellman
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker contr[Kainer stop 34 6e
+[?2004l34
+6e
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ docke[K[K[K[K[Ksudo docker ps a-[K[K-a
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+347cb31182c8   nginx     "/docker-entrypoint.…"   43 seconds ago   Exited (0) 7 seconds ago             nervous_mcnulty
+6e788c610e16   nginx     "/docker-entrypoint.…"   45 seconds ago   Exited (0) 7 seconds ago             competent_goldstine
+a8be312d20db   nginx     "/docker-entrypoint.…"   47 seconds ago   Up 46 seconds              80/tcp    gracious_hellman
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker images
+[?2004lREPOSITORY    TAG       IMAGE ID       CREATED        SIZE
+nginx         latest    021283c8eb95   5 days ago     187MB
+hello-world   latest    9c7a54a9a43c   2 months ago   13.3kB
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker images[1Pps -acontainer stop 34 6e[K[K[K[K[Ka8
+[?2004la8
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker rm 34 6e a8
+[?2004l34
+6e
+a8
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker rm 34 6e a8[6@container stop[C[C[C[11Pimages[1Pps -a
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-10 16:24:04+03:00 [COMMAND_EXIT_CODE="0"]
