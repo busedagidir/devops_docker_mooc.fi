@@ -1,0 +1,83 @@
+Script started on 2023-07-12 09:43:46+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="30"]
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~/docker_answers[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~/docker_answers[00m$ cd ..
+[?2004l
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ [7msudo docker pull devopsdockeruh/simple-web-service:alpine[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker pull devopsdockeruh/simple-web-service:alpine
+[?2004l
+[sudo] password for buse: 
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K
+ba3557a56b15: Pulling fs layer 
+[1B
+[1A[2K
+1dace236434b: Pulling fs layer 
+[1B
+[1A[2K
+4f4fb700ef54: Pulling fs layer 
+[1B[1A[2K
+4f4fb700ef54: Downloading [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Verifying Checksum 
+[1B[1A[2K
+4f4fb700ef54: Download complete 
+[1B[3A[2K
+ba3557a56b15: Downloading [>                                                  ]  28.14kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [>                                                  ]  51.21kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Verifying Checksum 
+[3B[3A[2K
+ba3557a56b15: Download complete 
+[3B[3A[2K
+ba3557a56b15: Extracting [>                                                  ]  32.77kB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Extracting [==================================================>]  2.812MB/2.812MB
+[3B[2A[2K
+1dace236434b: Verifying Checksum 
+[2B[2A[2K
+1dace236434b: Download complete 
+[2B[3A[2K
+ba3557a56b15: Pull complete 
+[3B[2A[2K
+1dace236434b: Extracting [>                                                  ]  65.54kB/5.117MB
+[2B[2A[2K
+1dace236434b: Extracting [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+1dace236434b: Pull complete 
+[2B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Pull complete 
+[1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker run -d --name alpine-web [7mdevopsdockeruh/simple-web-service:alpine[27mdevopsdockeruh/simple-web-service:alpine
+[?2004l
+dabfe4bacad62fb551e6acad6f93565178e8f224c8e43ea9aa3b3f7c2465782c
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ sudo docker exec -it alpine-web sh
+[?2004l
+/usr/src/app # [6ntail *-f[J[J[J-f ./text.log
+2023-07-12 06:45:04 +0000 UTC
+2023-07-12 06:45:06 +0000 UTC
+2023-07-12 06:45:08 +0000 UTC
+2023-07-12 06:45:10 +0000 UTC
+2023-07-12 06:45:12 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-07-12 06:45:14 +0000 UTC
+2023-07-12 06:45:16 +0000 UTC
+2023-07-12 06:45:18 +0000 UTC
+2023-07-12 06:45:20 +0000 UTC
+2023-07-12 06:45:22 +0000 UTC
+^C
+/usr/src/app # [6n
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ ^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~[00m$ exit
+[?2004l
+exit
+
+Script done on 2023-07-12 09:46:15+03:00 [COMMAND_EXIT_CODE="130"]
