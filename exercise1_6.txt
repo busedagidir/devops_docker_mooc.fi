@@ -1,0 +1,11 @@
+Script started on 2023-07-26 18:08:00+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="136" LINES="30"]
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~/docker_answers[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~/docker_answers[00m$ sudo docker run i[K-it devopsdockeruh/pull_exercise
+[?2004l[sudo] password for buse: 
+[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[?2004h]0;buse@DESKTOP-JRNNV4I: ~/docker_answers[01;32mbuse@DESKTOP-JRNNV4I[00m:[01;34m~/docker_answers[00m$ exit
+[?2004lexit
+
+Script done on 2023-07-26 18:08:24+03:00 [COMMAND_EXIT_CODE="0"]
